@@ -1,5 +1,5 @@
  
- 
+import {Link} from 'react-router-dom'; 
 import { BsTrash3 } from 'react-icons/bs';
 import { AiOutlineHeart } from 'react-icons/ai';
 
@@ -20,7 +20,7 @@ const Cart = () => {
         <div className="row justify-content-center my-4">
           <div className="col-md-8">
             <div className="card mb-4">
-              <div className="card-header py-3">
+              <div className="card-header py-3 rounded-pill">
                 <h5 className="mb-0">Cart - 2 items</h5>
               </div>
               <div className="card-body">
@@ -171,7 +171,7 @@ const Cart = () => {
           </div>
           <div className="col-md-4">
             <div className="card mb-4">
-              <div className="card-header">
+              <div className="card-header rounded-pill">
                 <h5 className="mb-0">Summary</h5>
               </div>
               <div className="card-body">
@@ -194,9 +194,9 @@ const Cart = () => {
                     </span>
                   </li>
                 </ul>
-                <button className="btn btn-lg btn-block btn-primary">
+                <Link to="/checkout"  className="btn btn-lg btn-block btn-primary">
                   Go to checkout
-                </button>
+                </Link >
               </div>
             </div>
           </div>

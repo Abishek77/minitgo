@@ -1,12 +1,11 @@
-import Header from '../components/header'
-import Footer from '../components/Footer'
+ 
 import { Link } from "react-router-dom";
 
 export const Checkout = () => {
   return (
     <>
 
-    <Header/>
+    
     <br></br>
     <br></br>
     <br></br>
@@ -140,7 +139,7 @@ export const Checkout = () => {
       </div>
     </div>
     <br></br>
-    <Footer/>
+  
 
     </>
   )
