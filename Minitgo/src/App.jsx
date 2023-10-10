@@ -8,7 +8,7 @@ import GoogleApiWrapper from './pages/Contact'
 import About from './pages/About.jsx';  
 import Header from "./components/header";
 import Footer from "./components/Footer";
-
+import Cart from './pages/Cart.jsx'
 const App = () => {
   return (
     <>
@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
          <Route path="/orders" element={<OrdersPage />} />   
          <Route path="/about" element={<About />} />   
+         <Route path="/cart" element={<Cart />} />   
      
              
          <Route path="/cart" element={<GoogleApiWrapper />} />   
