@@ -122,7 +122,7 @@ function Header() {
             </Nav.Link> 
           
              
-            <Nav.Link href="#pricing" style={{fontSize:'33px', margin:'-9.8% 0 0 0'}}><BiCartAlt/></Nav.Link>
+            <Link to="/cart" style={{fontSize:'33px', margin:'-9.8% 0 0 0'}}><BiCartAlt/></Link>
           </Nav>
         </Navbar.Collapse>
   

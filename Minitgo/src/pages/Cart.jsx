@@ -1,5 +1,5 @@
-import Header from '../components/header'
-import Footer from '../components/Footer'
+ 
+ 
 import { BsTrash3 } from 'react-icons/bs';
 import { AiOutlineHeart } from 'react-icons/ai';
 
@@ -9,7 +9,7 @@ const Cart = () => {
 
       <>
 
-<Header/>
+ 
 <br></br>
 <br></br>
 <br></br>
@@ -203,7 +203,7 @@ const Cart = () => {
         </div>
       </div>
     </section>
-    <Footer/>
+     
 
       </>
     );
