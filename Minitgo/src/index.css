@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* Mobile Header styling here*/
+ .mobile-menu-logo{
+font-size: 33px;
+
+ }
+ 
+ .filter-s{
+  padding: 4px;
+
+} 
+.product-image{
+  background-color: #f1f3f4;
+  padding: 7px;
+
+}
+.product-image img{
+  height: 44.5vh;
+   width: 100%;
+}
+.product-card{
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgb(241, 236, 236);
+}
+.product-content{
+  padding-left: 5px;
+  padding-top: 10px;
+}
+.product-content p{
+  margin-top: -10px;
+}
+.filter-bg{
+   padding: 8px;
+   padding-bottom:25px;
+   padding-top: 20px;
+  border-left:3px solid #d8dfab;
+  border-radius: 10px;
+
+}
+/* Buttons css  */
+.btn-primary{
+  background-color: #d9dfab;
+  color: #22251f;
+  border: none;
+  box-shadow: 0px 0px 2px #171717;
+}
+.btn-success{
+  border: none;
+  box-shadow: 0px 0px 1.5px #171717;
+}
+/* logo style */
+ 
+/* Header Location button style*/
+.form-select{
+  padding-left: 27px;
+  border: 2.5px solid #d8dfab;
+  box-shadow: 0px 0px 1px #d8dfab;
+  border-radius: 10px;
+  
+}
+.loc-icon{
+  margin-top: -40px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: large;
+  overflow: hidden;
+  
+}
+   
+/* In your CSS file */
+.dropdown .dropdown-menu {
+  background-color: #ecedea;
+  opacity: 0.7;
+  transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+.dropdown .dropdown-menu:hover {
+  opacity: 1;
+}
+
+.dropdown .dropdown-menu:not(:hover) {
+  opacity: 0.7; /* Restore opacity when not hovering */
+  transition: opacity 0.9s ease-out; /* Smooth opacity transition */
+}
+
+/* Header search engine style*/
+.search-box{
+  border: 2.55px solid #d8dfab;
+  border-radius: 10px;
+  
+  
+ }
+.search-btn{
+   right: 4%;
+   
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #d9dfab;
+  background-color: #d9e0ad;
+  box-shadow: 0px 0px 4px #30302f;
+}
+ 
+ 
+
+/* header login right section  style*/
+.right-menu{
+  
+font-size: 14pt; 
+ 
+}
+
+/* catlog style*/
+.catlog{
+margin-top: 60px;
+background-color: #e4d6d2;  
+display: flex;
+z-index: 1;
+
+}
+.catlog-names{
+display: flex;  
+padding-left: 150px;
+}
+.cat-nav{
+  padding-left: 10px;
+  font-size: 12pt; 
+  padding-top: 10px;
+}
+
+/* Styling for the banner */
+ /* Base Styles */
+ /* Define the keyframe animation for the background color wave effect */
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.banner{
+  margin-top: 129px;
+}
+
+.custom-bg {
+  
+  background: linear-gradient(to right, #f7f8f9, #ffffff );
+  display: flex;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px rgb(221, 213, 213);
+  overflow: hidden;
+  height: 60vh;
+  background-size: 1400% 100%;
+  /* Define the keyframe animation for the background color wave effect */
+ border-left:5.5px solid #7f7d86;
+}
+
+.right-box .imgs{
+ 
+ width: 110%;
+  margin: -2% 0 0 0%;
+ height: 63vh;
+ 
+}
+.right-box{
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+ 
+   
+}
+.left-box {
+   
+  padding-top: 19px;
+  padding-left: 9%;
+ 
+   
+}
+.left-box h1 {
+  text-shadow: 0px 0px 0.1px black;
+  font-size:3.6rem; /* Adjust font size for smaller screens */
+  font-weight: 700;
+  letter-spacing: -1.7px;
+}
+
+
+ 
+.left-box p {
+ 
+  letter-spacing: 1.7px;
+  font-size: 13.6px;
+}
+
+/* Button Styles */
+.buynow,
+.find-btn {
+  color: rgb(44, 40, 40);
+  border-radius: 30px;
+  padding: 6px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth hover transition */
+}
+
+.buynow {
+  background-color: #00B0E2;
+  width: 136px; /* Allow the width to adjust based on content */
+  margin-right: 10px; /* Reduce margin for smaller screens */
+  margin-bottom: 8px;
+  color: whitesmoke;
+}
+
+.find-btn {
+  background-color: transparent;
+  /* Allow the width to adjust based on content */
+  color: #00B0E2;
+  margin-bottom: 8px;
+}
+/* Define the blinking cursor animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the blinking cursor */
+span.cursor {
+  animation: blink 0.7s infinite;
+}
+
+/* Define the typing animation for the h1 tag */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Apply the typing animation to the h1 tag */
+h1.typing-text {
+  overflow: hidden;
+  border-right: 2px solid #fcebf6; /* Simulate the blinking cursor with a border */
+   
+ 
+  
+  animation: typing 4s steps(40, end), blink-caret 0.7s step-end infinite;
+}
+
+/* Additional styles for the h1 tag */
+h1.typing-text {
+  overflow: hidden;
+  border-right: 2px solid #f8afde; /* Simulate the blinking cursor with a border */
+  white-space: nowrap;
+ 
+  
+    /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+    
+  animation: typing 4s steps(1000, end), blink-caret 0.7s step-end infinite;
+}
+/* Common styles for all .Best-cat elements */
+.best-cat,
+.best-cat-2,
+.best-cat-3,
+.best-cat-4 {
+  height: 52vh;
+  border-radius: 8px;
+  background-size: cover;
+  margin: 10px;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  color: white;
+  text-align: center;
+  display: flex; /* Add display flex */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Vertically align the content in the middle */
+}
+
+
+/* Custom CSS for styling */
+h2 {
+  text-align: center;
+  color: #333; /* Change to your preferred text color */
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #555; /* Change to your preferred text color */
+}
+
+ 
+
+/* Background images and specific styles for each element */
+.best-cat {
+  background-image: url("./components/images/best-deal1.jpg");
+}
+
+.best-cat-2 {
+  background-image: url("./components/images/best-deal5.jpg");
+}
+
+.best-cat-3 {
+  background-image: url("./components/images/best-deal6.jpg");
+}
+
+.best-cat-4 {
+  background-image: url("./components/images/best-deal2.jpg");
+}
+.best-cat:hover,
+.best-cat-2:hover,
+.best-cat-3:hover,
+.best-cat-4:hover {
+  transform: scale(1.09); /* Scale up the element on hover */
+  box-shadow: 0px 0px 4px black;
+  /* Add any other styles you want for the hover effect ########################### end*/
+}
+ 
+ 
+/* Common styles for all .subs-cat elements */
+.subs-cat,
+.subs-cat-2,
+.subs-cat-3,
+.subs-cat-4 {
+  height: 22vh;
+  border-radius: 8px;
+  background-size: cover;
+  margin: 10px;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  color: white;
+  text-align: center;
+ 
+}
+/* Custom CSS for styling */
+h2 {
+  text-align: center;
+  color: #333 ; /* Change to your preferred text color */
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #555; /* Change to your preferred text color */
+}
+
+.btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    /* Change to your preferred hover background color */
+  transform: scale(1.09);
+    /* Change to your preferred hover text color */
+}
+
+/* Background images and specific styles for each element */
+.subs-cat {
+  background-image: url("./components/images/men.jpg");
+}
+
+.subs-cat-2 {
+  background-image: url("./components/images/women.jpg");
+}
+
+.subs-cat-3 {
+  background-image: url("./components/images/fashion.jpg");
+}
+
+.subs-cat-4 {
+  background-image: url("./components/images/best-deal2.jpg");
+}
+.subs-cat:hover,
+.subs-cat-2:hover,
+.subs-cat-3:hover,
+.subs-cat-4:hover {
+  transform: scale(1.09); /* Scale up the element on hover */
+  box-shadow: 0px 0px 4px black;
+  /* Add any other styles you want for the hover effect */
+}
+ /* Responsive Media Queries for Tablets (including iPads and Android tablets) */
+@media (max-width: 1024px) {
+  .custom-bg {
+    height: 55vh; /* Remove fixed height for smaller screens */
+  }
+
+  .right-box .imgs {
+    width: auto;
+    margin: 0 0 0 11%;
+    max-height: auto; /* Adjust the maximum height for tablet screens */
+  }
+
+  .left-box h1 {
+    font-size: 20.6pt;
+    margin-right: -15%;
+   
+  }
+
+  .left-box {
+    padding: 3% 0 0px 5%;
+  }
+
+  .left-box p {
+    margin-top: 10px; /* Adjust margin for even smaller screens */
+    font-size: xx-small;
+  }
+  .catlog-names{
+    padding-left: 0px;
+   
+  }
+ 
+    .catlog{
+       
+      background:none;
+      margin-top: 0px;
+       margin-left: 31%;
+    width: 0px;
+    }
+  .set-range{
+  background-color:#e2e9ad;
+  }
+    
+  
+    .cat-nav {
+       
+      padding-top: 11px;
+      font-size: 8pt; /* Reduce font size */
+    }
+    .mobile-search{
+      display: flex;
+      padding: 10px;
+      width: 100%;
+    }
+    .search-box-m{
+      min-width:109%;
+      margin-left: 9%; 
+    }
+  
+}
+
+  
+
+/* Footer style */
+.footer {
+  background-color: #f0f0f0;
+  padding: 30px 0;
+  text-align: center;
+   
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__links {
+  margin-top: 10px;
+}
+
+.footer__links a {
+  color: #555;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
+/* Home products filters and products style */
+.filter input{
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+   
+}
+.discription{
+  font-size: x-small;
+  letter-spacing: 1px;
+}
+ 
+.content-box{
+  background-color: #f8f8f4 ;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgb(220, 211, 211);
+  margin:30px;
+    
+}
+.card{
+  padding: 10px;
+} 
+.product-card img{
+margin-bottom: 15px;
+}
+.button-group{
+padding: 20px 0 0 0; 
+} 
+.button-group button{
+  margin: 0 0 0 10px; 
+  } 
+
+/* Login page style */
+ .login{
+margin-top: 8%;
+width: 80%;
+border: none;
+ 
+ }
+.login div{
+  padding: 9px;
+}
+.card-b{
+  box-shadow: 0px 0px 4dvi rgb(209, 179, 179);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+ .c-box{
+  margin: 0 0 0 6.5% 
+} 
+.forgot-password-link{
+  margin: 2px;
+  text-decoration:none;
+}
+.btn-l{
+  margin: 13px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .container.login {
+    padding:0.1px;
+  }
+  
+  .col-md-6 {
+    max-width: 100%;
+  }
+
+  .card-b {
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .btn-l {
+    width: 50%;
+  }
+
+  .forgot-password-link {
+    display: block;
+    margin-top: 10px;
+  }
+  .filter-s{
+    display: none;
+  }
+  .product-image img{
+    height: 29.5vh;
+      
+  }
+
+}
+
+/* Ipad mini Responsive Styles */
+@media screen and (min-width: 767px) and (max-width: 768px) {
+  .mobile-search{
+    margin-top: -17%;
+    margin-left: 125%;
+    
+  }
+.catlog{
+  margin-left: 20%;
+}
+.left-box h1{
+  font-size: 39pt;
+}
+.custom-bg{
+  height: 42vh;
+}
+ .product-image img{
+  height: 20.5vh;
+   
+}
+.filter-s{
+  display: block;
+}
+}
+ /* Ipad Air Responsive Styles */
+@media screen and (min-width: 819px) and (max-width: 821px) {
+  .mobile-search{
+    margin-top: -17%;
+    margin-left: 125%;
+    
+  }
+.catlog{
+  margin-left: 20%;
+}
+.left-box h1{
+  font-size: 39pt;
+}
+.custom-bg{
+  height: 42vh;
+}
+.product-image img{
+  height: 20.5vh;
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
