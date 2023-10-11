@@ -1,8 +1,19 @@
  
  .add{
  
-  height: 40vh;
-  border-radius: 10px; 
+  height: 60vh;
+  border-radius:  0px; 
    
  }
  
+.sponsor{
+    background-image: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    
+}
+ .button{
+     
+   
+} 
