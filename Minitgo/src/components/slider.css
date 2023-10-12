@@ -13,7 +13,28 @@
     opacity: 1;
     
 }
- .button{
-     
-   
-} 
+ 
+@media (max-width: 768px) {
+    .sponsor {
+      background-image: url("./images/bg1.jpg");
+      background-repeat: no-repeat;
+      background-size: 260% 100%; /* Adjust as needed */
+      background-position: 40% center; /* Move the image to the right */
+      opacity: 1;
+    }
+  }
+  
+  /* Add a media query for tablet views */
+  @media (max-width: 992px) { /* Adjust the max-width as needed for tablet breakpoints */
+    .sponsor {
+      background-image: url("./images/bg1.jpg");
+      background-repeat: no-repeat;
+      background-size: 220% 80%; /* Adjust as needed */
+      background-position: 40% center; /* Move the image to the right */
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  

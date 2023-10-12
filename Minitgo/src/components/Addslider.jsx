@@ -1,5 +1,5 @@
  
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import Img from './images/best-deal1.jpg';
 import Imgss from './images/best-deal2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,19 +10,16 @@ import { Link } from 'react-router-dom';
 const Slider = () => {
    
   return (
-    <Container className=' .add-conatiner'>
-        <p className='p-2'>Sponsored <BiInfoCircle className='fa-1'/></p>
+    <Container className='add-container'>
+    <p className='p-2'>Sponsored <BiInfoCircle className='fa-1'/></p>
     <Row>
-  
-        <Col className=' col-md-12 add sponsor'>
+    <Link to="/products" className=' '>
+        <Col className='col-sm-12 add sponsor d-flex justify-content-center align-items-center'>
+          
          
-          {//<Link to="" className='btn btn-primary rounded-pill button mx-5 d-flex justify-content-center   '>Buy now</Link>
-}
         </Col>
-       
-    </Row>
-    <br></br>
-    <br></br>
+        </Link>
+      </Row>
   </Container>
  
   

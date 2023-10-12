@@ -14,8 +14,8 @@ export default function Banner() {
      
 <Container className='banner'>
   <Row>
-    <div className="custom-bg">
-      <Col xs={6} sm={6} className='left-box'>
+    <div className="custom-bg ">
+      <Col xs={6} sm={6} className='left-box '>
       <br></br>
         <h1 className='typing-text'>Get Delivery In <span className="" style={{color:'#5F6D79'}}> <br></br>Minutes</span> <span className='cursor'>&nbsp;</span></h1>
         <br></br>
