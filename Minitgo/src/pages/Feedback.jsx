@@ -1,12 +1,12 @@
 export const Feedback = () => {
-  return (
-    <div className="container">
+    return (
+      <div className="container">
       <div className="row justify-content-center">
         <div className="col-6">
           <div className="card">
             <div className="card-body">
               <div className="text-center">
-                <i className="far fa-file-alt mb-3 text-primary"> </i>
+                <i className="far fa-file-alt mb-3 text-primary"></i>
                 <p>
                   <strong>Your opinion matters</strong>
                 </p>
@@ -58,5 +58,6 @@ export const Feedback = () => {
         </div>
       </div>
     </div>
-  )
-}
+    )
+  }
+  
