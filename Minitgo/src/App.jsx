@@ -10,6 +10,7 @@ import Header from "./components/header";
 import Footer from "./components/Footer";
 import Cart from './pages/Cart.jsx';
 import Checkout from './pages/Checkout.jsx';
+import Feedback from './pages/Feedback.jsx';
 const App = () => {
   return (
     <>

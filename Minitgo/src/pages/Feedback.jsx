@@ -1,8 +1,16 @@
-export const Feedback = () => {
+ function Feedback  ()   {
     return (
+      <>
+   <br></br>
+   <br></br>
+   <br></br>
+   <br></br>
+   <br></br>
+   <br></br>
+   <br></br>
       <div className="container">
       <div className="row justify-content-center">
-        <div className="col-6">
+        <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
               <div className="text-center">
@@ -58,6 +66,13 @@ export const Feedback = () => {
         </div>
       </div>
     </div>
+   <br></br>
+   <br></br>
+   <br></br>
+   <br></br>
+
+    </>
     )
   }
+  export default Feedback;
   
