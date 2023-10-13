@@ -54,13 +54,14 @@
                   <label htmlFor="feedbackText" className="form-label"><strong>Your feedback:</strong></label>
                   <textarea className="form-control" id="feedbackText" rows="4"></textarea>
                 </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary" type="button">
+                  Button
+                </button>
+              </div>
   
               </form>
-            </div>
-            <div className="card-footer">
-              <div className="text-end">
-                <button className="btn btn-primary">Submit</button>
-              </div>
             </div>
           </div>
         </div>
